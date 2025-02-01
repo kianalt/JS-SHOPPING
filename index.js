@@ -47,8 +47,10 @@ const init = async () => {
   const cookie = getCookie();
   if (cookie) {
     loginButton.style.display = "none";
+    dashbordButton.style.display = "block";
   } else {
     dashbordButton.style.display = "none";
+    loginButton.style.display = "block";
   }
 
   allProducts = await getDtata("products");

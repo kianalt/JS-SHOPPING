@@ -23,7 +23,7 @@ const getDtata = async (path) => {
     const result = await responsec.json();
     return result;
   } catch (error) {
-    alert("An error occured!");
+    alert("An error occuredddd!");
   }
 };
 
